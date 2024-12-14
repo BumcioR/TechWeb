@@ -43,7 +43,7 @@
     <main>
         <div class="container">
             <h3>Titles</h3>
-            <ul>
+            <ul id="moviesList">
                 <li><input type="checkbox"> The Matrix, 1999, Keanu Reeves, Laurence Fishburne</li>
                 <li><input type="checkbox"> Indiana Jones an the last crusade, 1989, Harrison Ford, Sean Connery</li>
                 <li><input type="checkbox"> Casino Royal, 2006, Daniel Craig, Eva Green</li>
@@ -52,8 +52,8 @@
             <button>Delete selected</button>
             <h3>Add movie</h3>
             Title: <input id="inputTitle" type="text"><br>
-            Year: <input type="text"><br>
-            Actors: <input type="text"><br>
+            Year: <input id="inputYear" type="text"><br>
+            Actors: <input id="inputActors" type="text"><br>
             <button onclick="addMovie()">Add</button>
 
         </div>
